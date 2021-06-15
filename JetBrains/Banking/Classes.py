@@ -96,7 +96,7 @@ class RightTriangle:
 
 # triangle from the input
 input_c, input_a, input_b = [int(x) for x in input().split()]
-# print(input_c, input_b, input_a)
+print(input_c, input_b, input_a)
 # write your code here
 if input_a**2 + input_b**2 == input_c**2:
     triangle = RightTriangle(input_c, input_a, input_b)
@@ -104,5 +104,20 @@ if input_a**2 + input_b**2 == input_c**2:
 else:
     print('Not right')
 
+
+
+
+class Student:
+    def __init__(self, name, last_name, birth_year):
+        self.name = name
+        self.last_name = last_name
+        self.birth_year = birth_year
+        # calculate the student_id here
+        student_id = Student(fname, lname, birth_year)
+
+
+fname = input()
+lname = input()
+birth = input()
 
 
