@@ -23,7 +23,6 @@ class Demon:
     feature = "horns"
     home = "Hell"
 
-
 print(Angel.color, Demon.color)
 print(Angel.feature, Demon.feature)
 print(Angel.home, Demon.home)
