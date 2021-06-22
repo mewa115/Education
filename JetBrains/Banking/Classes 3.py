@@ -4,8 +4,7 @@ class RightTriangle:
         self.a = leg_1
         self.b = leg_2
         # calculate the area here
-        s = 1 / 2 * (self.a * self.b)
-        print(s)
+        self.s = 1 / 2 * (self.a * self.b)
 
 
 # triangle from the input
@@ -14,6 +13,6 @@ print(input_c, input_b, input_a)
 # write your code here
 if input_a**2 + input_b**2 == input_c**2:
     triangle = RightTriangle(input_c, input_a, input_b)
-    # print(RightTriangle)
+    print(triangle.s)
 else:
     print('Not right')
