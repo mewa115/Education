@@ -7,5 +7,3 @@ class Hexagon:
 
     def get_area(self):
         return round(((3*(math.sqrt(3))*(self.t**2)) / 2), 3)
-
-
