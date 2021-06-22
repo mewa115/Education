@@ -68,56 +68,5 @@ shop = Store("GAP", "clothes")
 print(shop.name, shop.category)
 
 
-class Movie:
-    # create class here
-    all_movies = []
-    def __init__(self, title, director, year):
-        self.title = title
-        self.director = director
-        self.year = year
-        # Movie.all_movies.append(self)
-
-
-# objects of the class Movie
-titanic = Movie('"Titanic"', '(James Cameron,', '1997)')
-star_wars = Movie('"Star Wars"', '(George Lucas,', '1977)')
-fight_club = Movie('"Fight Club"', '(David Fincher,', '1999)')
-
-
-class RightTriangle:
-    def __init__(self, hyp, leg_1, leg_2):
-        self.c = hyp
-        self.a = leg_1
-        self.b = leg_2
-        # calculate the area here
-        s = 1 / 2 * (self.a * self.b)
-        print(s)
-
-
-# triangle from the input
-input_c, input_a, input_b = [int(x) for x in input().split()]
-print(input_c, input_b, input_a)
-# write your code here
-if input_a**2 + input_b**2 == input_c**2:
-    triangle = RightTriangle(input_c, input_a, input_b)
-    # print(RightTriangle)
-else:
-    print('Not right')
-
-
-
-
-class Student:
-    def __init__(self, name, last_name, birth_year):
-        self.name = name
-        self.last_name = last_name
-        self.birth_year = birth_year
-        # calculate the student_id here
-        student_id = Student(fname, lname, birth_year)
-
-
-fname = input()
-lname = input()
-birth = input()
 
 
